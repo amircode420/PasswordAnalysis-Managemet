@@ -19,7 +19,9 @@ pip install -r requirements.txt
 
 After installing the dependencies, run the following command
 
+```bash
 python main.py 
+```
 
 This will launch the application on your desktop and you can start using it.
 
