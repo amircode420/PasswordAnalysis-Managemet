@@ -1,0 +1,4 @@
+cryptography==46.0.7
+PyQt5==5.15.11
+pyqt5_sip==12.18.0
+zxcvbn==4.5.0
