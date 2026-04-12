@@ -146,7 +146,6 @@ class VaultInterface(QDialog):
         service = self.service_input.text()
         username = self.user_input.text()
         password = self.password_input.text()
-        print(password)
         if not service or not password:
             QMessageBox.warning(self, "Error", "Please enter all information")
             return
@@ -154,10 +153,6 @@ class VaultInterface(QDialog):
         try:
             # ENCRYPTING PASSWORD
             encrypted_pass = self.encrypt_password(password)
-            print(encrypted_pass)
-            print(self.master_password)
-
-
             if encrypted_pass:
                 conn = sqlite3.connect("vault.db")
                 cur = conn.cursor()
