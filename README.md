@@ -15,10 +15,11 @@ To get started with this application please install the required dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
-After installing the dependencies, run the following command;
+After installing the dependencies, run the following command
 
--- python main.py --
+python main.py 
 
 This will launch the application on your desktop and you can start using it.
 
