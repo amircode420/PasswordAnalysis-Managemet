@@ -195,7 +195,8 @@ class PasswordVault(QDialog):
         conn.commit()
         conn.close()
 
-        QMessageBox.information(self, "Success", "Vault Has been Created Successfully!")
+        QMessageBox.information(self, "Success", "Vault Has been Created Successfully! NOTE: PLEASE SAVE YOUR MASTER PASSWORD SECURELY." \
+        " IF YOU LOSE IT, YOU WILL LOSE ACCESS TO THE VAULT FOREVER")
         self.close()
     
     # VERIFY PASSWORD ON LOGIN METHOD
