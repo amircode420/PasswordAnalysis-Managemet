@@ -246,7 +246,8 @@ class PasswordManager(QWidget):
 
             print("This works")
         except Exception as e:
-            QMessageBox.warning(self, "Notice!", f"Please enter a Password first!: {str(e)}")
+            QMessageBox.warning(self, "Notice!", "Please enter a Password first!")
+            print(e)
     
     # GENERATOR BUTTON FUNCTIONALITY
     def gen_pass(self):
