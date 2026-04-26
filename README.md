@@ -14,13 +14,13 @@ This tool is local and built using **Python's PyQT5** and **SQLite**.
 To get started with this application please install the required dependencies 
 
 ```bash
-git clone https://github.com/amircode420/PasswordAnalysis-Managemet.git
+git clone https://github.com/amircode420/PasswordAnalysis-Management.git
 ```
 
 After cloning the repository, change your directory into the file
 
 ```bash
-cd PasswordAnalysis-Managmenet
+cd PasswordAnalysis-Management
 ```
 
 After that,
